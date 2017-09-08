@@ -14,4 +14,7 @@ describe('#anagrams')do
   it("checking for any words that are antigrams.")do
     expect(is_anagram?("hi","bye")).to(eq("These words are not anagrams they are antigram!"))
   end
+  it("checking for any words with spaces or puncuations")do
+    expect(spaces_and_punc(" cat's/ * & ^% ")).to(eq("cats"))
+  end
 end
