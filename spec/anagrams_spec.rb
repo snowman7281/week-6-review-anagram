@@ -11,4 +11,7 @@ describe('#anagrams')do
   it("checking for palindrome words")do
     expect(is_palindrome?("cat")).to(eq("tac"))
   end
+  it("checking for any words that are antigrams.")do
+    expect(is_anagram?("hi","bye")).to(eq("These words are not anagrams they are antigram!"))
+  end
 end

@@ -23,7 +23,7 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 * _check for anagrams_
 * _check for anagrams with capitals_
 * _check for palindroms_
-* _easy-to-understand_
+* _check for vowels so they are valid words_
 * _format_
 
 
