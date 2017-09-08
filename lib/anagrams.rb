@@ -1,6 +1,7 @@
 public def is_anagram?(word1, word2)
-  (word1.chars - word2.chars).length.zero? ? "Is a anagram!" : "Not a anagram!"
+  (word1.downcase.chars - word2.downcase.chars).length.zero? ? "These words are anagrams!" : "These words are not anagrams!"
 end
 
-puts is_anagram?("bat", "tab")
-puts is_anagram?("bat", "bta")
+public def is_palindrome?(word)
+  word = word.reverse
+end
